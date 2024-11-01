@@ -1,0 +1,32 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\rwillekes\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\rwillekes\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\variants\\eightanaloginputs"
+  },
+  {
+    "Sourcefile": "C:\\Users\\rwillekes\\Documents\\Stack\\Documents\\Persoonlijk\\ITM2M\\arduino-music-player-demo\\pmf_player\\build\\sketch\\pmf_player.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\rwillekes\\Documents\\Stack\\Documents\\Persoonlijk\\ITM2M\\arduino-music-player-demo\\pmf_player\\build\\sketch\\display_driver.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\rwillekes\\Documents\\Stack\\Documents\\Persoonlijk\\ITM2M\\arduino-music-player-demo\\pmf_player\\build\\sketch\\pmf_player.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\rwillekes\\Documents\\Stack\\Documents\\Persoonlijk\\ITM2M\\arduino-music-player-demo\\pmf_player\\build\\sketch\\pmf_player_arduino_avr.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

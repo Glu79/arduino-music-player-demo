@@ -1,4 +1,5 @@
 #include "pmf_player.h"
+#include "display_driver.h"
 
 //============================================================================
 // music data
@@ -82,7 +83,7 @@ void setup()
   Serial.begin(9600);
   delay(1000);
 #endif
-
+  setup_disp();
   s_player.load(s_pmf_file);
 /*
   // Uncomment this code block to enable basic LED visualization (make sure pins don't conflic with used audio device)
@@ -96,7 +97,7 @@ void setup()
   s_player.set_row_callback(&row_callback_test); // setup row callback for the effect
 */
 
-  s_player.start(22050);
+  //s_player.start(22050);
 }
 //----------------------------------------------------------------------------
 
@@ -104,8 +105,11 @@ void setup()
 //============================================================================
 // loop
 //============================================================================
-void loop()
+int main(void)
 {
-  s_player.update(); // keep updating the audio buffer...
+  while (1){
+    s_player.update(); // keep updating the audio buffer...
+    //set_disp();
+  }
 }
 //----------------------------------------------------------------------------
